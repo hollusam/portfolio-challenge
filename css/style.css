@@ -156,16 +156,17 @@ nav ul {
  }
 
  .grid-category {
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   margin: 5px;
   display: grid;
   align-content: end;
+  opacity: 0.8;
+  border: 4px solid #48EEFA;
  }
 
  .grid-category:hover {
-  color: #48EEFA;
-  opacity: 0.5;
+  opacity: 1;
   cursor: pointer;
  }
 
