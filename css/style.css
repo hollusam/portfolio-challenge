@@ -93,3 +93,21 @@ nav ul {
   top: 90px;
   right: 70px;
  }
+
+.page-section {
+  width: 75%;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+ .v-line {
+  border-left: 4px solid #48EEFA;
+  height: 200px;
+  margin-left: 15px;
+ }
+
+ .about-paragraph,
+ .work-text {
+  margin-left: 50px;
+ }
