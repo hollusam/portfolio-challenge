@@ -36,15 +36,13 @@ header {
 
 .logo {
   background-color: #48EEFA;
-  width: 13%;
   margin: 0;
   padding: 5px;
   color: #21A4AD;
 }
 
-.logo-text {
-  position: relative;
-  left: 50px;
+.logo h1 {
+  margin-left: 20px;
 }
 
 .head-container {
@@ -96,14 +94,29 @@ nav ul {
 .page-section {
   display: grid;
   margin: 0 10%;
-  grid-template-columns: 70px 20px 1fr;
+  grid-template-columns: 120px 50px 1fr;
   margin-top: 30px;
 }
 
- .v-line {
+.page-section > h2 {
+  color: #177679;
+  font-size: 30px;
+}
+
+ .v-line1 {
   border-left: 4px solid #48EEFA;
   height: 200px;
-  margin-left: 15px;
+  margin-left: 25px;
+ }
+ .v-line2 {
+  border-left: 4px solid #48EEFA;
+  height: 800px;
+  margin-left: 25px;
+ }
+ .v-line3 {
+  border-left: 4px solid #48EEFA;
+  height: 80px;
+  margin-left: 25px;
  }
 
  .about-paragraph,
@@ -112,10 +125,9 @@ nav ul {
  }
 
  .grid-container {
+  position: relative;
   margin: 0 5%;
   display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
   "surf-report surf-report"
   "led-wall calculator"
@@ -144,10 +156,44 @@ nav ul {
  }
 
  .grid-category {
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px;
   display: grid;
   align-content: end;
+ }
+
+ .grid-category:hover {
+  color: #48EEFA;
+  opacity: 0.5;
+  cursor: pointer;
+ }
+
+ .grid-text {
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: #48EEFA;
+  color: #177679;
+ }
+
+ .contact-content ul {
+  list-style: none;
+  margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .contact-content a {
+  color: #48EEFA;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 3px solid #48EEFA;
+ }
+
+ footer {
+  padding: 10px;
+  background-color: #21A4AD;
+  text-align: center;
+  margin-top: 60px;
  }
