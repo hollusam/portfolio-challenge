@@ -215,7 +215,7 @@ nav ul {
   nav a {
     font-size: 17px;
   }
-  
+
   .hero-banner::before {
   background: url(/images/02-hero-bg.jpg);
   background-repeat: no-repeat;
@@ -245,5 +245,17 @@ nav ul {
 
  .contact-content ul {
   display: block;
+ }
+
+ .grid-container {
+  grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "surf-report"
+      "led-wall"
+      "calculator"
+      "pastel-puzzels"
+      "run-buddy"
+    ;
  }
 }
