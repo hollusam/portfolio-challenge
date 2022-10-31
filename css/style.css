@@ -204,10 +204,10 @@ nav li {
   align-items: center;
 }
 .contact-content a {
-  color: var(--clr-skyblue);
+  color: var(--clr-darkblue);
   text-decoration: none;
   font-size: 18px;
-  border-bottom: 3px solid var(--clr-skyblue);
+  border-bottom: 3px solid var(--clr-darkblue);
 }
 
 /* Footer section */
@@ -223,7 +223,10 @@ footer h3 {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 782px) {
+  body {
+    position: static;
+  }
   .head-container {
     display: block;
   }
@@ -274,5 +277,17 @@ footer h3 {
       "calculator"
       "pastel-puzzels"
       "run-buddy";
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  body::after {
+    content: "one";
+  }
+}
+
+@media only screen and ( min-width: 470px) and (max-width: 990px) {
+  body {
+    content: "two";
   }
 }
