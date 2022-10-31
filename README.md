@@ -22,9 +22,9 @@ Use this portfolio page to view my works and also get in touch with me.
 
 ## Contact
 
-Samuel: @hollusam on twitter and instagram
+Samuel: https://instagram.com/hollusam
 
-Project link:
+Project link: https://hollusam.github.io/portfolio-challenge/
 
 ## Acknowledgement
 
