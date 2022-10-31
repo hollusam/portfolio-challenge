@@ -223,10 +223,7 @@ footer h3 {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 782px) {
-  body {
-    position: static;
-  }
+@media only screen and (min-width: 425px) and (max-width: 725px) {
   .head-container {
     display: block;
   }
@@ -235,7 +232,7 @@ footer h3 {
     text-align: center;
   }
   nav a {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .hero-banner::before {
@@ -280,14 +277,15 @@ footer h3 {
   }
 }
 
-@media only screen and (max-width: 470px) {
-  body::after {
-    content: "one";
+@media only screen and (max-width: 968) {
+  .head-container {
+    display: block;
   }
-}
 
-@media only screen and ( min-width: 470px) and (max-width: 990px) {
-  body {
-    content: "two";
+  .logo {
+    text-align: center;
+  }
+  nav a {
+    font-size: 13px;
   }
 }
