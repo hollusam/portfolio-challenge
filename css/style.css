@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/* Body */
 body {
   margin: 0;
   padding: 0;
@@ -131,11 +132,13 @@ nav li {
   margin-left: 25px;
 }
 
+/* About me section */
 .about-paragraph,
 .work-text {
   margin-left: 50px;
 }
 
+/* Work section */
 .grid-container {
   position: relative;
   margin: 0 5%;
@@ -189,6 +192,8 @@ nav li {
   background-color: var(--clr-skyblue);
   color: #177679;
 }
+
+/* Contact section */
 
 .contact-content ul {
   list-style: none;
