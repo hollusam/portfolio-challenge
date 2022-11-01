@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /* Body */
 body {
   margin: 0;
@@ -15,6 +19,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 h1,
@@ -223,27 +228,32 @@ footer h3 {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 425px) and (max-width: 725px) {
+@media only screen and (max-width: 425px) {
+  .logo,
   .head-container {
-    display: block;
-  }
-
-  .logo {
     text-align: center;
   }
+  .hero-subtitle {
+    right: 110px;
+  }
   nav a {
-    font-size: 16px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo,
+  .head-container {
+    text-align: center;
   }
 
-  .hero-banner::before {
-    background: url(/images/02-hero-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  nav ul {
+    justify-content: center;
   }
 
   .hero-subtitle {
-    right: 150px;
+    right: 90px;
   }
+
   .page-section {
     display: block;
   }
@@ -259,12 +269,6 @@ footer h3 {
   .grid-content {
     margin: 5% 0;
   }
-
-  .contact-content ul {
-    display: block;
-    margin: 5% 0;
-  }
-
   .grid-container {
     grid-template-rows: 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
@@ -275,17 +279,19 @@ footer h3 {
       "pastel-puzzels"
       "run-buddy";
   }
+  .contact-content ul {
+    display: block;
+    margin: 5% 0;
+  }
 }
-
-@media only screen and (max-width: 968) {
+@media only screen and (max-width: 1200px) {
+  .logo,
   .head-container {
     display: block;
-  }
-
-  .logo {
     text-align: center;
   }
-  nav a {
-    font-size: 13px;
+  nav ul {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
