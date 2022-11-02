@@ -270,7 +270,7 @@ footer h3 {
     margin: 5% 0;
   }
   .grid-container {
-    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "surf-report"
